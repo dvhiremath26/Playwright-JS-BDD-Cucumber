@@ -1,0 +1,22 @@
+{
+  "name": "playwright-javascript-bdd-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "posttest": "npx node src/helper/report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "multiple-cucumber-html-reporter": "^3.9.0"
+  },
+  "dependencies": {
+    "playwright-javascript-bdd-cucumber": "file:"
+  }
+}
